@@ -40,7 +40,6 @@ const displayAverageSalary = function(employeesArray) {
     currency: 'USD',
     
   });
-
   const formattedAverageSalary = formatter.format(averageSalary);
 
   console.log(`The average salary between our ${employeesArray.length} employee(s) is ${formattedAverageSalary}`);
